@@ -466,8 +466,6 @@ body .more #down {
     flex-direction: row;
     background-color: #fff;
     width: 100%;
-    -webkit-box-pack: space-evenly;
-    -ms-flex-pack: space-evenly;
     justify-content: space-evenly;
   }
 
@@ -764,7 +762,6 @@ body .more #down {
 
   body .speakers .speakers-container {
     display: grid;
-    -ms-grid-columns: (1fr);
     grid-template-columns: repeat(2, 1fr);
     margin: 3% 10%;
   }
@@ -856,11 +853,7 @@ body .more #down {
 
   body .partners .row {
     display: flex;
-    -webkit-box-pack: space-evenly;
-    -ms-flex-pack: space-evenly;
     justify-content: space-evenly;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
     align-items: center;
     margin-top: 2%;
     width: 70%;
