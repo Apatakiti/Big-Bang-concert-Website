@@ -467,7 +467,7 @@ body .logo-reservedright .right p.ko {
         justify-content: space-around;
     font-size: 80%;
   }
-  body .top .others #ele {
+  body .top .others .ele {
     margin-left: 20%;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -536,7 +536,7 @@ body .logo-reservedright .right p.ko {
     border-radius: 10px;
     padding: 2%;
   }
-  body .Desktop-nav .other-navigations .concert-name {
+  body .Desktop-nav .other-navigations #concert-name {
     margin-left: 5%;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -552,7 +552,7 @@ body .logo-reservedright .right p.ko {
     padding: 1%;
     padding-right: 1.3%;
   }
-  body .Desktop-nav .other-navigations .concert-name p {
+  body .Desktop-nav .other-navigations #concert-name p {
     margin: 0 1.1%;
   }
   body #menu1 {
