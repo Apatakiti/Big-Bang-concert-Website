@@ -15,7 +15,7 @@ body .Desktop-nav {
   display: none;
 }
 
-body menu {
+body .mens {
   display: none;
   position: relative;
   background-color: #d3d3d3;
@@ -24,7 +24,7 @@ body menu {
   z-index: 1000;
 }
 
-body menu #xmark-container {
+body .mens #xmark-container {
   background-color: #d4d4d4;
   width: -webkit-fit-content;
   width: -moz-fit-content;
@@ -40,7 +40,7 @@ body menu #xmark-container {
   margin: 5%;
 }
 
-body menu #xmark-container #x-mark {
+body .mens #xmark-container #x-mark {
   color: black;
   margin: 2% 2%;
   font-size: 200%;
@@ -50,7 +50,7 @@ body menu #xmark-container #x-mark {
   width: fit-content;
 }
 
-body menu .menu-line-container {
+body .mens .menu-line-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -63,14 +63,14 @@ body menu .menu-line-container {
           align-items: center;
 }
 
-body menu .menu-line-container .menu-line {
+body .mens .menu-line-container .menu-line {
   background-color: #000;
   color: black;
   width: 100%;
   height: 2px;
 }
 
-body menu a {
+body .mens a {
   text-decoration: none;
   width: -webkit-fit-content;
   width: -moz-fit-content;
@@ -78,7 +78,7 @@ body menu a {
   margin: 1%;
 }
 
-body menu a p {
+body .mens a p {
   font-size: 180%;
   background-color: #000;
   width: -webkit-fit-content;
@@ -432,7 +432,7 @@ body .more #down {
 
 @media screen and (min-width: 768px) {
   body .burger-container,
-  body menu {
+  body .mens {
     display: none;
   }
   body .top {
@@ -465,7 +465,7 @@ body .more #down {
         justify-content: space-around;
     font-size: 80%;
   }
-  body .top .others #ele {
+  body .top .others .ele {
     margin-left: 20%;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -522,13 +522,13 @@ body .more #down {
     -ms-flex-pack: distribute;
         justify-content: space-around;
   }
-  body .Desktop-nav .other-navigations #elements {
+  body .Desktop-nav .other-navigations .elements {
     margin-right: 5%;
     font-size: 2vh;
     text-decoration: none;
     color: #272a31;
   }
-  body .Desktop-nav .other-navigations #elements:hover {
+  body .Desktop-nav .other-navigations .elements:hover {
     background-color: #333333;
     color: #ff4e3a;
     border-radius: 10px;
@@ -671,11 +671,11 @@ body .more #down {
             flex: 1 1 0;
     gap: -10%;
   }
-  body .program .lectures .lecture1 #program-icons,
-  body .program .lectures .lecture2 #program-icons,
-  body .program .lectures .lecture3 #program-icons,
-  body .program .lectures .lecture4 #program-icons,
-  body .program .lectures .lecture5 #program-icons {
+  body .program .lectures .lecture1 .program-icons,
+  body .program .lectures .lecture2 .program-icons,
+  body .program .lectures .lecture3 .program-icons,
+  body .program .lectures .lecture4 .program-icons,
+  body .program .lectures .lecture5 .program-icons {
     width: 5vw;
     -ms-grid-column-align: center;
         justify-self: center;

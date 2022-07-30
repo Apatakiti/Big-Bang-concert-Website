@@ -13,7 +13,7 @@ body {
     display: none;
   }
 
-  menu {
+  .mens {
     display: none;
     position: relative;
     background-color: #d3d3d3;
@@ -363,7 +363,7 @@ body {
 
   @media screen and (min-width: 768px) {
     .burger-container,
-    menu {
+    .mens {
       display: none;
     }
 
@@ -384,7 +384,7 @@ body {
         justify-content: space-around;
         font-size: 80%;
 
-        #ele {
+        .ele {
           margin-left: 20%;
           display: flex;
           flex-direction: row;
@@ -422,14 +422,14 @@ body {
         align-items: center;
         justify-content: space-around;
 
-        #elements {
+        .elements {
           margin-right: 5%;
           font-size: 2vh;
           text-decoration: none;
           color: #272a31;
         }
 
-        #elements:hover {
+        .elements:hover {
           background-color: rgb(51, 51, 51);
           color: #ff4e3a;
           border-radius: 10px;
@@ -567,7 +567,7 @@ body {
           flex: 1 1 0;
           gap: -10%;
 
-          #program-icons {
+          .program-icons {
             width: 5vw;
             justify-self: center;
             margin-top: 10%;
