@@ -1,0 +1,426 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #d3d3d3;
+}
+
+body menu {
+  display: none;
+  position: relative;
+  background-color: #d3d3d3;
+  width: 100%;
+  border-radius: 22px;
+  z-index: 1000;
+}
+
+body menu #x-mark-container {
+  background-color: #d4d4d4;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  justify-self: flex-end;
+  margin: 2%;
+}
+
+body menu #x-mark-container #x-mark {
+  color: black;
+  font-size: 200%;
+  cursor: pointer;
+}
+
+body menu .menu-line-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body menu .menu-line-container .menu-line {
+  background-color: #000000;
+  color: black;
+  width: 100%;
+  height: 2px;
+}
+
+body menu a {
+  text-decoration: none;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 1%;
+}
+
+body menu a p {
+  font-size: 180%;
+  background-color: #000000;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  border-radius: 8px;
+  padding: 1%;
+  color: #ffffff;
+}
+
+body header {
+  margin-bottom: -40%;
+}
+
+body header .HB-container {
+  background-color: #d3d3d3dd;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  position: relative;
+  top: 25px;
+  left: 4%;
+}
+
+body header .HB-container #hamburger {
+  font-size: 10vw;
+  cursor: pointer;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+body header #img1 {
+  width: 100%;
+}
+
+body header .displaced-imgs {
+  display: none;
+}
+
+body header .title {
+  position: relative;
+  top: -50vw;
+}
+
+body header .title p {
+  font-size: 5vw;
+  min-height: 4vh;
+  color: rgba(248, 45, 45, 0.975);
+  text-align: center;
+  margin-bottom: 4%;
+}
+
+body header .title h1 {
+  color: red;
+  padding-left: 5%;
+  font-size: 7vw;
+  text-align: center;
+}
+
+body header .about-introduction {
+  position: relative;
+  top: -45vw;
+  background-color: #ffffff;
+  color: #2d2c2c;
+  margin: 0 5%;
+  padding: 3% 3%;
+  font-size: 2.5vw;
+  border: 2px solid #ffffff84;
+  text-align: center;
+  line-height: 170%;
+  height: auto;
+  width: auto;
+  border-radius: 15px;
+}
+
+body header .contact {
+  position: relative;
+  top: -40vw;
+  padding: -90%;
+}
+
+body header .contact p {
+  color: #212121;
+  text-align: center;
+  font-size: 2.3vw;
+  line-height: 150%;
+}
+
+body header .contact p#mail {
+  font-weight: bolder;
+  text-decoration: underline;
+}
+
+body .mission {
+  background-color: #ffffff;
+  padding-top: 5%;
+  padding-bottom: 7%;
+  margin-top: -15vw;
+}
+
+body .mission h2 {
+  font-size: 3vw;
+  margin-bottom: 1%;
+  text-align: center;
+}
+
+body .mission #topic {
+  font-size: 3vw;
+  font-weight: 800;
+  margin-bottom: 1%;
+  text-align: center;
+}
+
+body .mission #topic-desk {
+  display: none;
+}
+
+body .mission .lining {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .mission .lining .line {
+  background-color: red;
+  width: 2.5%;
+  height: 1px;
+}
+
+body .mission #about-logo {
+  font-size: 2.2vw;
+  text-align: center;
+  padding: 4% 20%;
+}
+
+body .mission .logo {
+  border: 3px solid #d2d2d2;
+  margin-left: 5%;
+  margin-right: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .mission .logo #logo-img {
+  width: 50%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+body .past {
+  background-color: #ffffff;
+  margin-top: .3%;
+}
+
+body .past h2 {
+  font-size: 3vw;
+  padding-top: 5%;
+  margin-bottom: 1%;
+  text-align: center;
+}
+
+body .past .lining {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .past .lining .line {
+  background-color: red;
+  width: 2.5%;
+  height: 1px;
+}
+
+body .past .last-two {
+  font-size: 2.3vw;
+  text-align: center;
+  padding: 4% 10%;
+}
+
+body .past #past-img {
+  margin: 0 10%;
+}
+
+body .past #past-img #past-img1 {
+  width: 100%;
+  -webkit-filter: brightness(-120);
+          filter: brightness(-120);
+}
+
+body .past #past-img .year-place {
+  position: relative;
+  top: -36vw;
+  text-align: center;
+  color: #d3d3d3;
+}
+
+body .past #past-img .year-place #year {
+  font-size: 7vw;
+}
+
+body .past #past-img .year-place #place {
+  font-size: 2.5vw;
+}
+
+body .partners {
+  background-color: #373737;
+  padding-bottom: 5%;
+}
+
+body .partners .partner {
+  text-align: center;
+  color: #d3d3d3;
+  font-weight: 400;
+  font-size: 5vw;
+}
+
+body .partners .lining {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .partners .lining .line {
+  background-color: red;
+  width: 5%;
+  height: 1px;
+}
+
+body .partners .row1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 5%;
+}
+
+body .partners .row1 .partner1 {
+  color: #ffffff86;
+  font-size: 8vw;
+  font-weight: 700;
+}
+
+body .partners .row1 .partner2 {
+  color: #d3d3d33f;
+  font-size: 8vw;
+  font-weight: 200;
+}
+
+body .partners .row1 .partner3 {
+  color: #d3d3d386;
+  font-size: 8vw;
+  font-weight: 1000;
+}
+
+body .partners .row2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin-top: 2.5%;
+}
+
+body .partners .row2 .partner4 {
+  color: #d3d3d33f;
+  font-size: 7vw;
+  font-weight: 200;
+}
+
+body .partners .row2 .partner5 {
+  color: #d3d3d33f;
+  font-size: 7vw;
+  font-weight: 200;
+}
+
+body .partners .logo-reservedright {
+  display: -ms-grid;
+  display: grid;
+  background-color: #d3d3d3;
+}
+
+body .partners .logo-reservedright .footlogo {
+  -ms-grid-column: 1;
+  grid-column: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .partners .logo-reservedright .footlogo #footlogo-img {
+  width: 50%;
+}
+
+body .partners .logo-reservedright .right {
+  -ms-grid-column: 2;
+  grid-column: 2;
+  padding: 5% 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  justify-items: center;
+  color: #272727;
+}
+
+body .partners .logo-reservedright .right p {
+  font-size: 2vw;
+  margin-top: 4%;
+}
+/*# sourceMappingURL=about.css.map */
