@@ -7,7 +7,7 @@
 body {
     background-color: #d3d3d3;
 
-    menu {
+    #menu1 {
         display: none;
         position: relative;
         background-color: #d3d3d3;
@@ -143,7 +143,7 @@ body {
             margin-bottom: 1%;
             text-align: center;
         } 
-        #topic {
+        .topic {
             font-size: 3vw;
             font-weight: 800;
             margin-bottom: 1%;
@@ -212,10 +212,10 @@ body {
            padding: 4% 10%;
         }
 
-        #past-img { 
+        .past-img { 
             margin: 0 10%;
 
-            #past-img1 {
+            .past-img1 {
                 width: 100%;
                 filter:brightness(-120);
             }
@@ -225,10 +225,10 @@ body {
             text-align: center;
             color: #d3d3d3;
 
-            #year{
+            .year{
                 font-size: 7vw;
             }
-            #place {
+            .place {
                 font-size: 2.5vw;
             }
         }
@@ -238,7 +238,7 @@ body {
     .partners {
         background-color: #373737;
         padding-bottom: 5%;
-        .partner {
+             h1 {
             text-align: center;
             color: #d3d3d3;
             font-weight: 400;

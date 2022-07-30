@@ -13,7 +13,7 @@ body {
       display: none;
     }
 
-    menu {
+    .mens {
       display: none;
       position: relative;
       background-color: #d3d3d3;
@@ -307,7 +307,7 @@ body {
         padding-bottom: 3%;
         gap: 5%;
 
-        #speaker-photo {
+        .speaker-photo {
            flex: 1 1 0;
           width: 15%;
         }
