@@ -96,15 +96,11 @@ body .main-page nav .burger-container {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  height: -webkit-fit-content;
-  height: -moz-fit-content;
-  height: fit-content;
   cursor: pointer;
 }
 
 body .main-page nav .burger-container #hamburger {
   font-size: 10vw;
-  opacity: 1;
 }
 
 body .main-page nav .img1 {
@@ -944,7 +940,7 @@ body .more #down {
             align-items: flex-start;
     justify-items: center;
   }
-  body .logo-reservedright .right #pa {
+  body .logo-reservedright .right .pa {
     margin-top: 4%;
   }
   body .more {

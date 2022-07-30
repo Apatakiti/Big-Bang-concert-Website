@@ -53,7 +53,7 @@ body {
       width: fit-content;
       margin: 1%;
 
-      p {
+      .paw {
         font-size: 180%;
         background-color: #000;
         width: fit-content;
@@ -79,7 +79,7 @@ body {
         cursor: pointer;
         width: fit-content;
       }
-    } 
+    }
 
     #img1 { width: 100%; }
 
@@ -91,7 +91,7 @@ body {
       position: relative;
       top: -50vw;
 
-      p {
+      .pin {
         font-size: 5vw;
         min-height: 4vh;
         color: rgba(248, 45, 45, 0.975);
@@ -99,7 +99,7 @@ body {
         margin-bottom: 4%;
       }
 
-      h1 {
+      .hoo {
         color: red;
         padding-left: 5%;
         font-size: 7vw;
@@ -128,7 +128,7 @@ body {
       top: -40vw;
       padding: -90%;
 
-      p {
+      .poo {
         color: #212121;
         text-align: center;
         font-size: 2.3vw;
@@ -265,7 +265,7 @@ body {
     }
 
     .partner {
-     text-align: center;
+      text-align: center;
       color: #d3d3d3;
       font-weight: 400;
       font-size: 5vw;
@@ -350,8 +350,8 @@ body {
       justify-items: center;
       color: #272727;
 
-      p#ko {
-        margin-top: 1%;
+      p.ko {
+        margin-top: 2%;
         font-size: 2.5vw;
       }
     }
@@ -707,7 +707,7 @@ body {
         justify-items: center;
         color: #dedede;
 
-        P#ko {
+        p.ko {
           margin-top: 4%;
           font-size: 1vw;
         }

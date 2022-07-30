@@ -73,7 +73,7 @@ body #menu1 a {
   margin: 1%;
 }
 
-body #menu1 a p {
+body #menu1 a .paw {
   font-size: 180%;
   background-color: #000;
   width: -webkit-fit-content;
@@ -119,7 +119,7 @@ body header .title {
   top: -50vw;
 }
 
-body header .title p {
+body header .title .pin {
   font-size: 5vw;
   min-height: 4vh;
   color: rgba(248, 45, 45, 0.975);
@@ -127,7 +127,7 @@ body header .title p {
   margin-bottom: 4%;
 }
 
-body header .title h1 {
+body header .title .hoo {
   color: red;
   padding-left: 5%;
   font-size: 7vw;
@@ -156,7 +156,7 @@ body header .contact {
   padding: -90%;
 }
 
-body header .contact p {
+body header .contact .poo {
   color: #212121;
   text-align: center;
   font-size: 2.3vw;
@@ -431,8 +431,8 @@ body .logo-reservedright .right {
   color: #272727;
 }
 
-body .logo-reservedright .right p#ko {
-  margin-top: 1%;
+body .logo-reservedright .right p.ko {
+  margin-top: 2%;
   font-size: 2.5vw;
 }
 
@@ -832,7 +832,7 @@ body .logo-reservedright .right p#ko {
     justify-items: center;
     color: #dedede;
   }
-  body .logo-reservedright .right P#ko {
+  body .logo-reservedright .right p.ko {
     margin-top: 4%;
     font-size: 1vw;
   }
