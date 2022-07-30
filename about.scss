@@ -12,7 +12,7 @@ body {
     display: none;
   }
 
-  menu {
+  #menu1 {
     display: none;
     position: relative;
     background-color: #d3d3d3;
@@ -79,7 +79,7 @@ body {
         cursor: pointer;
         width: fit-content;
       }
-    }
+    } 
 
     #img1 { width: 100%; }
 
@@ -228,10 +228,10 @@ body {
       padding: 4% 10%;
     }
 
-    #past-img {
+    .past-img {
       margin: 0 10%;
 
-      #past-img1 {
+      .past-img1 {
         width: 100%;
         filter: brightness(-120);
       }
@@ -242,11 +242,11 @@ body {
         text-align: center;
         color: #d3d3d3;
 
-        #year {
+        .year {
           font-size: 7vw;
         }
 
-        #place {
+        .place {
           font-size: 2.5vw;
         }
       }
@@ -257,8 +257,15 @@ body {
     background-color: #373737;
     padding-bottom: 5%;
 
-    .partner {
+    h1 {
+      color: #d3d3d3;
+      font-size: 4vw;
       text-align: center;
+      padding-top: 1%;
+    }
+
+    .partner {
+     text-align: center;
       color: #d3d3d3;
       font-weight: 400;
       font-size: 5vw;
@@ -343,9 +350,9 @@ body {
       justify-items: center;
       color: #272727;
 
-      p {
-        margin-top: 4%;
-        font-size: 3vw;
+      p#ko {
+        margin-top: 1%;
+        font-size: 2.5vw;
       }
     }
   }
@@ -406,21 +413,21 @@ body {
         align-items: center;
         justify-content: space-around;
 
-        #elements {
+        .elements {
           margin-right: 5%;
           font-size: 2vh;
           text-decoration: none;
           color: #272a31;
         }
 
-        #elements:hover {
+        .elements:hover {
           background-color: rgb(51, 51, 51);
           color: #ff4e3a;
           border-radius: 10px;
           padding: 2%;
         }
 
-        #concert-name {
+        .concert-name {
           margin-left: 5%;
           display: flex;
           flex-direction: row;
@@ -436,7 +443,7 @@ body {
       }
     }
 
-    menu {
+    #menu1 {
       display: none;
     }
 
@@ -644,10 +651,10 @@ body {
         align-self: center;
         padding-left: 7%;
 
-        #past-img {
+        .past-img {
           margin: 0 5%;
 
-          #past-img1 {
+          .past-img1 {
             width: 100%;
           }
 
@@ -657,11 +664,11 @@ body {
             text-align: center;
             color: #d3d3d3;
 
-            #year {
+            .year {
               font-size: 4vw;
             }
 
-            #place {
+            .place {
               font-size: 1.8vw;
             }
           }
@@ -700,7 +707,7 @@ body {
         justify-items: center;
         color: #dedede;
 
-        #ko {
+        P#ko {
           margin-top: 4%;
           font-size: 1vw;
         }

@@ -1,5 +1,5 @@
 const hamburger = document.getElementsByClassName('burger-container')
-const menu = document.querySelectorAll('menu')
+const menu = document.querySelectorAll('.mens')
 const sections = document.querySelectorAll('section')
 const xmark1 = document.getElementById('xmark-container')
 

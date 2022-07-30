@@ -1,9 +1,10 @@
 const hamburger = document.getElementsByClassName('HB-container')
-const menu = document.querySelectorAll('menu')
+const menu = document.querySelectorAll('#menu1')
 const sections = document.querySelectorAll('section')
 const xmark1 = document.getElementById('x-mark-container')
 const header = document.querySelectorAll('header')
 const footer = document.querySelectorAll('footer')
+const tis = document.querySelectorAll('.logo-reservedright')
 
    hamburger[0].addEventListener('click', () => {
 
@@ -14,6 +15,7 @@ const footer = document.querySelectorAll('footer')
          sections[i].style.display = 'none';
         }
 
+        tis[0].style.display='none'
         header[i].style.display = 'none';
         footer[i].style.display = 'none';
 

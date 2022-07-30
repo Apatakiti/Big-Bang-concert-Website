@@ -14,7 +14,7 @@ body .Desktop-nav {
   display: none;
 }
 
-body menu {
+body #menu1 {
   display: none;
   position: relative;
   background-color: #d3d3d3;
@@ -23,7 +23,7 @@ body menu {
   z-index: 1000;
 }
 
-body menu #x-mark-container {
+body #menu1 #x-mark-container {
   background-color: #d4d4d4;
   width: -webkit-fit-content;
   width: -moz-fit-content;
@@ -39,13 +39,13 @@ body menu #x-mark-container {
   margin: 2%;
 }
 
-body menu #x-mark-container #x-mark {
+body #menu1 #x-mark-container #x-mark {
   color: black;
   font-size: 200%;
   cursor: pointer;
 }
 
-body menu .menu-line-container {
+body #menu1 .menu-line-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -58,14 +58,14 @@ body menu .menu-line-container {
           align-items: center;
 }
 
-body menu .menu-line-container .menu-line {
+body #menu1 .menu-line-container .menu-line {
   background-color: #000;
   color: black;
   width: 100%;
   height: 2px;
 }
 
-body menu a {
+body #menu1 a {
   text-decoration: none;
   width: -webkit-fit-content;
   width: -moz-fit-content;
@@ -73,7 +73,7 @@ body menu a {
   margin: 1%;
 }
 
-body menu a p {
+body #menu1 a p {
   font-size: 180%;
   background-color: #000;
   width: -webkit-fit-content;
@@ -276,34 +276,41 @@ body .past .last-two {
   padding: 4% 10%;
 }
 
-body .past #past-img {
+body .past .past-img {
   margin: 0 10%;
 }
 
-body .past #past-img #past-img1 {
+body .past .past-img .past-img1 {
   width: 100%;
   -webkit-filter: brightness(-120);
           filter: brightness(-120);
 }
 
-body .past #past-img .year-place {
+body .past .past-img .year-place {
   position: relative;
   top: -36vw;
   text-align: center;
   color: #d3d3d3;
 }
 
-body .past #past-img .year-place #year {
+body .past .past-img .year-place .year {
   font-size: 7vw;
 }
 
-body .past #past-img .year-place #place {
+body .past .past-img .year-place .place {
   font-size: 2.5vw;
 }
 
 body .partners {
   background-color: #373737;
   padding-bottom: 5%;
+}
+
+body .partners h1 {
+  color: #d3d3d3;
+  font-size: 4vw;
+  text-align: center;
+  padding-top: 1%;
 }
 
 body .partners .partner {
@@ -424,9 +431,9 @@ body .logo-reservedright .right {
   color: #272727;
 }
 
-body .logo-reservedright .right p {
-  margin-top: 4%;
-  font-size: 3vw;
+body .logo-reservedright .right p#ko {
+  margin-top: 1%;
+  font-size: 2.5vw;
 }
 
 @media screen and (min-width: 768px) {
@@ -517,19 +524,19 @@ body .logo-reservedright .right p {
     -ms-flex-pack: distribute;
         justify-content: space-around;
   }
-  body .Desktop-nav .other-navigations #elements {
+  body .Desktop-nav .other-navigations .elements {
     margin-right: 5%;
     font-size: 2vh;
     text-decoration: none;
     color: #272a31;
   }
-  body .Desktop-nav .other-navigations #elements:hover {
+  body .Desktop-nav .other-navigations .elements:hover {
     background-color: #333333;
     color: #ff4e3a;
     border-radius: 10px;
     padding: 2%;
   }
-  body .Desktop-nav .other-navigations #concert-name {
+  body .Desktop-nav .other-navigations .concert-name {
     margin-left: 5%;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -545,10 +552,10 @@ body .logo-reservedright .right p {
     padding: 1%;
     padding-right: 1.3%;
   }
-  body .Desktop-nav .other-navigations #concert-name p {
+  body .Desktop-nav .other-navigations .concert-name p {
     margin: 0 1.1%;
   }
-  body menu {
+  body #menu1 {
     display: none;
   }
   body header .HB-container {
@@ -762,22 +769,22 @@ body .logo-reservedright .right p {
         align-self: center;
     padding-left: 7%;
   }
-  body .past .past-img-container #past-img {
+  body .past .past-img-container .past-img {
     margin: 0 5%;
   }
-  body .past .past-img-container #past-img #past-img1 {
+  body .past .past-img-container .past-img .past-img1 {
     width: 100%;
   }
-  body .past .past-img-container #past-img .year-place {
+  body .past .past-img-container .past-img .year-place {
     position: relative;
     top: -15vw;
     text-align: center;
     color: #d3d3d3;
   }
-  body .past .past-img-container #past-img .year-place #year {
+  body .past .past-img-container .past-img .year-place .year {
     font-size: 4vw;
   }
-  body .past .past-img-container #past-img .year-place #place {
+  body .past .past-img-container .past-img .year-place .place {
     font-size: 1.8vw;
   }
   body .partners {
@@ -825,7 +832,7 @@ body .logo-reservedright .right p {
     justify-items: center;
     color: #dedede;
   }
-  body .logo-reservedright .right #ko {
+  body .logo-reservedright .right P#ko {
     margin-top: 4%;
     font-size: 1vw;
   }
