@@ -188,9 +188,10 @@ body {
 
     .location {
       margin-left: 5%;
-      margin-top: 5%;
+      margin-top: 3%;
       color: #272a31;
       font-size: 3vw;
+      margin-bottom: 3%;
     }
   }
 
@@ -228,7 +229,7 @@ body {
       border: none;
       margin-top: 2%;
 
-      #program-icons {
+      .program-icons {
         width: 10%;
         align-self: center;
         margin-left: 4%;
@@ -400,7 +401,7 @@ body {
           }
         }
       }
-    }
+    } 
 
     .Desktop-nav {
       position: relative;
@@ -478,14 +479,14 @@ body {
         #yo {
           font-size: 3vw;
           margin-left: 10%;
-          margin-top: 210px;
+          margin-top: 160px;
           margin-bottom: 1%;
         }
 
         h1 {
           padding-left: 10%;
           font-size: 4vw;
-          margin-top: -0.4%;
+          margin-top: -0.9%;
         }
 
         #img7 {
@@ -514,6 +515,7 @@ body {
         margin-left: 10%;
         margin-top: 1.5%;
         font-size: 1.5vw;
+
       }
     }
 

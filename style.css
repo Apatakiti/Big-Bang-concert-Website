@@ -212,9 +212,10 @@ body .main-page .date {
 
 body .main-page .location {
   margin-left: 5%;
-  margin-top: 5%;
+  margin-top: 3%;
   color: #272a31;
   font-size: 3vw;
+  margin-bottom: 3%;
 }
 
 body .program {
@@ -262,7 +263,7 @@ body .program .lecture {
   margin-top: 2%;
 }
 
-body .program .lecture #program-icons {
+body .program .lecture .program-icons {
   width: 10%;
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
@@ -573,13 +574,13 @@ body .more #down {
   body #main-page-desktop header #yo {
     font-size: 3vw;
     margin-left: 10%;
-    margin-top: 210px;
+    margin-top: 160px;
     margin-bottom: 1%;
   }
   body #main-page-desktop header h1 {
     padding-left: 10%;
     font-size: 4vw;
-    margin-top: -0.4%;
+    margin-top: -0.9%;
   }
   body #main-page-desktop header #img7 {
     top: 65%;
