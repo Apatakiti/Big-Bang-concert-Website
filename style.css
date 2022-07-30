@@ -263,7 +263,7 @@ body .program .lecture {
   margin-top: 2%;
 }
 
-body .program .lecture #program-icons {
+body .program .lecture .program-icons {
   width: 10%;
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
