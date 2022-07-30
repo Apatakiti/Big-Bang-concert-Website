@@ -26,11 +26,7 @@ body .mens {
 
 body .mens #xmark-container {
   background-color: #d4d4d4;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
   width: fit-content;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -45,14 +41,10 @@ body .mens #xmark-container #x-mark {
   margin: 2% 2%;
   font-size: 200%;
   cursor: pointer;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
   width: fit-content;
 }
 
 body .mens .menu-line-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -72,8 +64,6 @@ body .mens .menu-line-container .menu-line {
 
 body .mens a {
   text-decoration: none;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
   width: fit-content;
   margin: 1%;
 }
@@ -81,8 +71,6 @@ body .mens a {
 body .mens a p {
   font-size: 180%;
   background-color: #000000;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
   width: fit-content;
   border-radius: 8px;
   padding: 1%;
@@ -93,11 +81,7 @@ body .main-page nav .burger-container {
   position: relative;
   top: 25px;
   left: 4%;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
   width: fit-content;
-  height: -webkit-fit-content;
-  height: -moz-fit-content;
   height: fit-content;
   cursor: pointer;
 }
@@ -163,7 +147,6 @@ body .main-page header h1 {
 }
 
 body .main-page header #img5 {
-  position: -webkit-sticky;
   position: sticky;
   left: 80%;
   top: 59%;
@@ -173,7 +156,6 @@ body .main-page header #img5 {
 }
 
 body .main-page header #img6 {
-  position: -webkit-sticky;
   position: sticky;
   left: 10%;
   width: 7%;
@@ -232,8 +214,6 @@ body .program h2 {
 }
 
 body .program .line-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -253,8 +233,6 @@ body .program .line-container .red-line {
 }
 
 body .program .lecture {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   margin-left: 5%;
   margin-right: 5%;
@@ -327,8 +305,6 @@ body .speakers h2 {
 }
 
 body .speakers .line-container2 {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -348,8 +324,6 @@ body .speakers .line-container2 .red-line2 {
 }
 
 body .speakers .speaker {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
@@ -372,8 +346,6 @@ body .speakers .speaker .about {
   -webkit-box-flex: 3;
       -ms-flex: 3 3 0px;
           flex: 3 3 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
