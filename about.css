@@ -344,8 +344,6 @@ body .partners .row1 .partner3 {
 
 body .partners .row2 {
   display: flex;
-  -webkit-box-pack: space-evenly;
-  -ms-flex-pack: space-evenly;
   justify-content: space-evenly;
   margin-top: 2.5%;
 }
@@ -465,8 +463,6 @@ body .logo-reservedright .right p.ko {
     flex-direction: row;
     background-color: #fff;
     width: 100%;
-    -webkit-box-pack: space-evenly;
-    -ms-flex-pack: space-evenly;
     justify-content: space-evenly;
   }
 
