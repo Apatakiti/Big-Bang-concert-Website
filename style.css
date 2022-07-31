@@ -460,12 +460,12 @@ body .more #down {
   body .Desktop-nav {
     position: relative;
     display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
     -ms-flex-direction: row;
     flex-direction: row;
     background-color: #fff;
     width: 100%;
+    -webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
     justify-content: space-evenly;
   }
 
@@ -491,6 +491,11 @@ body .more #down {
   body .Desktop-nav .other-navigations .elements {
     margin-right: 5%;
     font-size: 2vh;
+    text-decoration: none;
+    color: #272a31;
+  }
+
+  body .Desktop-nav .other-navigations .elements .aaaa {
     text-decoration: none;
     color: #272a31;
   }
@@ -721,7 +726,6 @@ body .more #down {
 
   body .program .link #aa {
     color: white;
-    -webkit-text-decoration: underline white;
     text-decoration: underline white;
   }
 
@@ -762,6 +766,7 @@ body .more #down {
 
   body .speakers .speakers-container {
     display: grid;
+    -ms-grid-columns: (1fr);
     grid-template-columns: repeat(2, 1fr);
     margin: 3% 10%;
   }
@@ -803,8 +808,6 @@ body .more #down {
   }
 
   body .speakers .speakers-container .speaker .about .liner {
-    -webkit-box-align: center;
-    -ms-flex-align: center;
     align-items: center;
     margin-top: 2%;
   }
@@ -853,7 +856,11 @@ body .more #down {
 
   body .partners .row {
     display: flex;
+    -webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
     justify-content: space-evenly;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
     margin-top: 2%;
     width: 70%;
@@ -895,7 +902,9 @@ body .more #down {
   }
 
   body .logo-reservedright {
+    display: -ms-grid;
     display: grid;
+    background-color: #373737;
   }
 
   body .logo-reservedright .footlogo {
@@ -929,10 +938,12 @@ body .more #down {
     -ms-flex-align: start;
     align-items: flex-start;
     justify-items: center;
+    color: #d3d3d3;
   }
 
   body .logo-reservedright .right .pa {
     margin-top: 4%;
+    margin-right: 12%;
   }
 
   body .more {

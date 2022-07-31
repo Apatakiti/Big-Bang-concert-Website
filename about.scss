@@ -70,7 +70,7 @@ body {
     .HB-container {
       background-color: #d3d3d3dd;
       width: fit-content;
-      position: relative; 
+      position: relative;
       top: 25px;
       left: 4%;
 
@@ -328,7 +328,7 @@ body {
 
   .logo-reservedright {
     display: grid;
-    background-color: #313131;
+    background-color: #373737;
 
     .footlogo {
       grid-column: 1;
@@ -348,7 +348,7 @@ body {
       flex-direction: column;
       align-items: flex-start;
       justify-items: center;
-      color: #272727;
+      color: #b4b4b4;
 
       p.ko {
         margin-top: 2%;
@@ -412,6 +412,13 @@ body {
         flex-direction: row;
         align-items: center;
         justify-content: space-around;
+
+        .aas {
+          text-decoration: none;
+          color: #272a31;
+          margin-right: 5%;
+          font-size: 2vh;
+        }
 
         .elements {
           margin-right: 5%;

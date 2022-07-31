@@ -344,6 +344,8 @@ body .partners .row1 .partner3 {
 
 body .partners .row2 {
   display: flex;
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
   justify-content: space-evenly;
   margin-top: 2.5%;
 }
@@ -362,7 +364,7 @@ body .partners .row2 .partner5 {
 
 body .logo-reservedright {
   display: grid;
-  background-color: #d3d3d3;
+  background-color: #373737;
 }
 
 body .logo-reservedright .footlogo {
@@ -395,7 +397,7 @@ body .logo-reservedright .right {
   -ms-flex-align: start;
   align-items: flex-start;
   justify-items: center;
-  color: #272727;
+  color: #b4b4b4;
 }
 
 body .logo-reservedright .right p.ko {
@@ -463,6 +465,8 @@ body .logo-reservedright .right p.ko {
     flex-direction: row;
     background-color: #fff;
     width: 100%;
+    -webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
     justify-content: space-evenly;
   }
 
@@ -483,6 +487,13 @@ body .logo-reservedright .right p.ko {
     align-items: center;
     -ms-flex-pack: distribute;
     justify-content: space-around;
+  }
+
+  body .Desktop-nav .other-navigations .aas {
+    text-decoration: none;
+    color: #272a31;
+    margin-right: 5%;
+    font-size: 2vh;
   }
 
   body .Desktop-nav .other-navigations .elements {
