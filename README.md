@@ -10,7 +10,7 @@
 - Major languages: Html, Css and Javascript
 - Technologies used: linter, lightHouse, Weblint.
 
-## Live Demo (if available)
+## Live Demo here
 
 [Live Demo Link](https://ademola-coding.github.io/Big-Bang-concert-Website/)
 
