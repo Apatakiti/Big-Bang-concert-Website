@@ -1,6 +1,9 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # Concert website
+
+> Description of the Project
+  
+  [A Loom Video](https://www.loom.com/share/701f674fa6944e5e80b422f711a6f954)
 
 > This Project is inspired by microverse!
 
@@ -29,6 +32,13 @@ To get a local copy up and running follow these simple example steps.
 
 - **Web Browser**
 
+## Author
+
+👤 **Ademola Owoeye**
+
+- GitHub: [@githubhandle](https://github.com/Ademola-coding)
+- Twitter: [@twitterhandle](https://twitter.com/steady1700)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/resume-builder/urn:li:fs_memberResume:27973521/)
 
 ## Authors
 
@@ -37,7 +47,6 @@ To get a local copy up and running follow these simple example steps.
 - GitHub: [@githubhandle](https://github.com/githubhandle)
 - Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
 
 ## 🤝 Contributing
 
