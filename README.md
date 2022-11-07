@@ -1,13 +1,16 @@
 
-# Concert website
+# BIG BANG CONCERT WEBSITE
 
 > Description of the Project
+ 
+ This is a Concert website where audience can get information about the concert coming up, built with HTML, CSS and JavaScript.
   
-  [A Loom Video](https://www.loom.com/share/701f674fa6944e5e80b422f711a6f954)
+  ![The BB Concert 11-7-2022 6-17-48 AM](https://user-images.githubusercontent.com/96092850/200241268-e302a187-cac7-4882-9de8-9817f1021d68.png)
 
-> This Project is inspired by microverse!
+  ![The BB Concert 11-7-2022 6-18-45 AM](https://user-images.githubusercontent.com/96092850/200241227-613820bd-fdab-4784-9eb0-fa5b027440fd.png)
 
-https://www.loom.com/share/701f674fa6944e5e80b422f711a6f954
+  
+  [Click me for video Descriptio and Preview](https://www.loom.com/share/701f674fa6944e5e80b422f711a6f954)
 
 
 ## Built With
@@ -19,14 +22,19 @@ https://www.loom.com/share/701f674fa6944e5e80b422f711a6f954
 
 [Live Demo Link](https://ademola-coding.github.io/Big-Bang-concert-Website/)
 
-
 ## Getting Started
 
-**To access a  local copy up and running, follow these simple steps..**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+you can have a copy of this project by cloning this repo to your local machine
+`https://github.com/Ademola-coding/Big-Bang-concert-Website.git`
 
-
-To get a local copy up and running follow these simple example steps.
+## procedure
+- open git bash
+- git mkdir Concert-website
+- cd BConcert-website
+- git clone `https://github.com/Ademola-coding/Big-Bang-concert-Website.git`
+- code .
+ 
+with the steps above, you can have a copy of the project 
 
 ### Prerequisites
 
@@ -39,14 +47,6 @@ To get a local copy up and running follow these simple example steps.
 - GitHub: [@githubhandle](https://github.com/Ademola-coding)
 - Twitter: [@twitterhandle](https://twitter.com/steady1700)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/resume-builder/urn:li:fs_memberResume:27973521/)
-
-## Authors
-
-👤 **Author1**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 ## 🤝 Contributing
 
