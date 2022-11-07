@@ -372,12 +372,18 @@ body {
                         text-decoration: none;
                         color: #272a31;
                     }
+                    .aaaa:hover {
+                        background-color: rgb(51, 51, 51);
+                        color: #ff4e3a;
+                        border-radius: 10px;
+                        padding: 1%;
+                    }
                 }
                 .elements:hover {
                     background-color: rgb(51, 51, 51);
                     color: #ff4e3a;
                     border-radius: 10px;
-                    padding: 2%;
+                    padding: 1%;
                 }
                 #concert-name {
                     margin-left: 5%;

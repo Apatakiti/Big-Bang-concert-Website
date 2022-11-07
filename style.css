@@ -529,11 +529,17 @@ body .more #down {
     text-decoration: none;
     color: #272a31;
   }
+  body .Desktop-nav .other-navigations .elements .aaaa:hover {
+    background-color: #333333;
+    color: #ff4e3a;
+    border-radius: 10px;
+    padding: 1%;
+  }
   body .Desktop-nav .other-navigations .elements:hover {
     background-color: #333333;
     color: #ff4e3a;
     border-radius: 10px;
-    padding: 2%;
+    padding: 1%;
   }
   body .Desktop-nav .other-navigations #concert-name {
     margin-left: 5%;
